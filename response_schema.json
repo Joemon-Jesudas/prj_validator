@@ -1,0 +1,125 @@
+{
+    "template_classification": {
+        "type": "IT|Non-IT|Marketing",
+        "keywords_found": ["list of detected keywords"],
+        "confidence": "High|Medium|Low"
+    },
+    "allianz_details": {
+        "name": "extracted name",
+        "address": "extracted address",
+        "validation_status": "Correct|Mismatch|Missing"
+    },
+    "supplier_details": {
+        "name": "extracted name or Missing",
+        "address": "extracted address or Missing",
+        "validation_status": "Correct|Mismatch|Missing"
+    },
+    "customer_contact": {
+        "Surname": "surname or Missing",
+        "First name": "First name or Missing",
+        "Telephone number": "Telephone Number or Missing",
+        "e-mail address": "email or Missing",
+        "validation_status": "Correct|Mismatch|Missing"
+    },
+    "contractor_project_manager": {
+       "Surname": "surname or Missing",
+        "First name": "First name or Missing",
+        "Telephone number": "Telephone Number or Missing",
+        "e-mail address": "email or Missing",
+        "validation_status": "Correct|Mismatch|Missing"
+    },
+    "place_of_performance": {
+        "type": "Checked option",
+        "details": "provided details or Missing",
+        "validation_status": "Correct|Not found"
+    },
+    "subcontractor_details": {
+        "present": "true|false",
+        "details": "provide details or null",
+        "validation_status": "Found|Not found"
+    },
+    "remuneration_details": {
+        "marked_options": [
+            {
+                "option": "return marked_option",
+                "amount": "amount or Missing",
+                "currency": "currency or Missing",
+                "upper_limit": "upper limit amount or N/A",
+                "rate_card_status": "Present|Missing|N/A",
+                "table_status": "Updated|Not updated|N/A"
+            }
+        ],
+        "validation_status": "Correct|Mismatch|Missing",
+        "validation_reason": "Explanation of validation status"
+    },
+    "invoicing": {
+    "marked_options": [
+        {
+            "option": "Monthly in arrears|After overall acceptance|Following milestone acceptance"
+        }
+    ],
+    "validation_status": "Correct|Mismatch|Missing",
+    "validation_reason": "Explanation including cross-validation with remuneration condition",
+    "cross_validation_with_remuneration": "Matches|Does not match remuneration selection"
+    },
+   "vat": {
+        "marked_option": "Tax affinity|Local contractor|Foreign contractor (reverse charge)|Missing",
+        "supplier_name": "",
+        "validation_status": "Correct|Mismatch|Missing",
+        "validation_reason": "Explanation based on supplier location and type",
+        "expected_option": "Expected VAT option based on supplier details"
+    },
+    "invoice_address": {
+        "address_present": "true|false",
+        "extracted_address": "extracted address or N/A",
+        "matched_address": "Customer OE|Standard Unterföhring|None",
+        "validation_status": "Correct|Mismatch|Missing",
+        "validation_reason": "Explanation of address validation"
+    },
+    "data_protection_security_outsourcing": {
+        "data_protection": {
+            "marked": "Yes|No|Missing",
+            "document_included": "true|false",
+            "validation_status": "Correct|Available|Missing|N/A",
+            "validation_reason": "Explanation"
+        },
+        "information_security": {
+            "marked": "Yes|No|Missing",
+            "document_included": "true|false",
+            "validation_status": "Correct|Available|Missing|N/A",
+            "validation_reason": "Explanation"
+        },
+        "outsourcing": {
+            "marked": "Yes|No|Missing",
+            "document_included": "true|false",
+            "validation_status": "Correct|Available|Missing|N/A",
+            "validation_reason": "Explanation"
+        }
+    },
+    "terms_and_termination": {
+        "start_date": "date or Missing",
+        "end_date": "date or Missing",
+        "contract_duration": "duration in months/years",
+        "is_multiyear": "true|false",
+        "validation_status": "Correct|Missing",
+        "validation_reason": "Mandatory field - explanation"
+    },
+    "signature_verification": {
+        "total_signatures": 0,
+        "allianz_signatures": 0,
+        "supplier_signatures": 0,
+        "gsp_approval_present": "true|false",
+        "required_signatures": 0,
+        "applied_rules": ["list of rules that determine required signatures"],
+        "validation_status": "Correct|Mismatch|Missing",
+        "validation_reason": "Detailed explanation of signature requirement logic"
+    },
+    "legal_clause_validation": {
+        "validation_status": "Correct|Mismatch|Missing",
+        "changes": {
+            "sections": "name of changed sections",
+            "clause_position": "section_name: position",
+            "words_changed": "short summary of the difference"
+        }
+    }
+}

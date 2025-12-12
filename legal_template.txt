@@ -1,0 +1,32 @@
+14. LEGAL CLAUSE VALIDATION:
+    - Extract: legal clauses mentioned in General implementing provisions
+    - Validate the contents by comparing each sections with the template given below and identify the changes:
+      * General implementing provisions:
+          2.1. The Contractor shall not manage and organize the supply of the Contractual Services on his own responsibility.
+          2.2. The Parties agree that Contractor's employees shall not be integrated in the work organization of the Customer. The Parties shall take the necessary measures to avoid such an integration, in particular, both Parties shall train their employees to ensure that they are able to comply with the obligations of this Agreement. No internal e-mail address or telephone number shall be assigned to the Contractor or the Contractor’s employees.
+          2.3. The Contractor’s employees work independently under the exclusive authority of the Contractor. This applies even if, due to the special features of the performance of Contractual Services, a joint team must be formed with employees of the Customer.
+          2.4. The Contractor’s employees are not subject to any right of instruction of the Customer, the clients of the Customer and his employees, in particular with regard to place, time and content of the Contractual Services or any disciplinary action.
+          2.5. The selection and classification of the Contractor’s employees is the sole responsibility of the Contractor.
+          2.6. The Contractor shall determine the working time and workplace of the Contractor's employees on his own responsibility. At the same time, this shall not negatively affect Contractor’s compliance with agreed deadlines for milestones/work results.
+          2.7. The Parties agree that the Contractor’s employees do not need to notify the Customer in case of illness, holidays or other events for absence from work. The Customer may not demand such notifications from the Contractor’s employees. The organization of any necessary replacement is the exclusive responsibility of the Contractor.
+          2.8. The Contractor is also obliged to report any violation of this section 2 by the Customer or his personnel immediately in writing (e-mail is sufficient) with a detailed description of the incident to Customers’ Compliance organization (mail to: AllianzTechnology.Compliance@allianz.com).
+      * Human Rights  
+          The Contractor does not acknowledge that it has received the Allianz Vendor Code of Conduct and undertakes, represents and warrants, that in connection with this Agreement, it will respect the obligations, principles and guidelines for Vendors set forth therein. 
+          Customer  respects and supports compliance with internationally recognized human rights. The Contractor shall promote respect for human rights both internally and across their supply chain.
+          The Contractor shall:  
+             • (i) provide a workplace free of inhumane or discriminatory treatment or threat thereof, including any sexual harassment, sexual abuse, corporal punishment or other enforcement measures that compromise the individual’s physical or mental integrity and shall ensure the same applies throughout their supply chain; 
+             • (ii) respect legislation against child labour. The Contractor must not use any form of forced labour or human trafficking of involuntary labour through threat, force, fraudulent claims or other coercion and shall ensure the same applies throughout their supply chain; and  
+             • (iii) comply with all applicable labour laws including as to compensation and working hours, and use reasonable endeavours to ensure their supply chain does the same. The Contractor must respect workers’ rights to freedom of association and collective bargaining in accordance with applicable local laws and regulations.
+          The Contractor shall impose these obligations, no less onerous than those set out in this Clause, on any supplier of goods and services or on any sub-contractor that it uses in performing its obligations under this Agreement.  
+          The Contractor shall promptly notify Customer, if it becomes aware of or has specific suspicion of any violation of any applicable laws in connection to the performance of this Agreement. 
+          In case that the Contractor breaches any of the obligations set out in paragraphs 1 to 5 of this Clause, or if Customer has reasonable cause to believe that such breaches have been or are being made, Customer may terminate this Agreement for cause with immediate effect.
+      * Entire Agreement
+       This Agreement embodies and sets forth the entire agreement and understanding of the Parties and supersedes all prior oral or written agreements, understandings or arrangements relating to the subject matter of this Agreement.  
+    - Validation Rules:
+     * If actual legal clauses match the required: status = "Correct"
+     * If actual legal clauses do NOT match the required: status = "Mismatch"
+     * If legal clauses are not present: status = "Missing"
+     * Sections to Monitor: General implementing provisions, Human Rights, Entire Agreement.
+     * Changed Portions: Identify specific words or phrases that have been added or removed.
+     * Difference Summary: Provide a concise summary of the differences.
+    - Return: validation_status
